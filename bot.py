@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 import yt_dlp
 
-TOKEN = os.getenv("8383539672:AAHrMHQobXR8LptpiLpdD5kDwPsUxV2rQIU")
+TOKEN = os.getenv("")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
